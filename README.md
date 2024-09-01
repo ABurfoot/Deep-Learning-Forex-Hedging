@@ -52,12 +52,12 @@ The program will then:
 5. **Strategy Implementation**: Provides detailed steps for implementing each recommended hedging strategy.
 
 ## Key Components
-**load_and_preprocess_data()**: Prepares and engineers features from raw forex data.
-**EnsembleModel**: Combined LSTM, GRU, and CNN neural network model.
-**optimize_hyperparameters()**: Uses Bayesian optimization for hyperparameter tuning.
-**neural_network_recommendation()**: Generates recommendations based on the trained model.
-**recommend_hedging_methods()**: Provides rule-based recommendations.
-**get_hedging_template()**: Generates detailed implementation steps for each strategy.
+1. **load_and_preprocess_data()**: Prepares and engineers features from raw forex data.
+2. **EnsembleModel**: Combined LSTM, GRU, and CNN neural network model.
+3. **optimize_hyperparameters()**: Uses Bayesian optimization for hyperparameter tuning.
+4. **neural_network_recommendation()**: Generates recommendations based on the trained model.
+5. **recommend_hedging_methods()**: Provides rule-based recommendations.
+6. **get_hedging_template()**: Generates detailed implementation steps for each strategy.
 
 ## Limitations
 Forex markets are inherently unpredictable and affected by many external factors. This tool should be used for educational and informational purposes only, not for actual trading decisions.
